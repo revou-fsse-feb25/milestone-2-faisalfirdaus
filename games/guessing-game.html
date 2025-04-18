@@ -7,24 +7,25 @@
     <title>Number Guessing Game</title>
   </head>
   <body>
-    <h1>Guess the Number!</h1>
-    <p>Try to guess the number I'm thinking of between 1 and 100.</p>
-    <p id="attempts">Attempts: 5</p>
-    <div class="game-input">
-      <input
-        type="number"
-        id="playerInput"
-        min="1"
-        max="100"
-        placeholder="Your guess"
-      />
-      <button id="inputButton">Guess</button>
+    <div class="main-container">
+      <h1>Guess the Number!</h1>
+      <p>Try to guess the number I'm thinking of between 1 and 100.</p>
+      <p id="attempts">Attempts: 5</p>
+      <div class="game-input">
+        <input
+          type="number"
+          id="playerInput"
+          min="1"
+          max="100"
+          placeholder="Your guess"
+        />
+        <button id="inputButton">Guess</button>
+      </div>
+
+      <div class="message" id="message"></div>
+
+      <button class="restart-button" id="restartButton">Start New Game</button>
     </div>
-
-    <div class="message" id="message"></div>
-
-    <button class="restart-button" id="restartButton">Start New Game</button>
-
     <script src="scripts/guessing-game.js"></script>
   </body>
 </html>

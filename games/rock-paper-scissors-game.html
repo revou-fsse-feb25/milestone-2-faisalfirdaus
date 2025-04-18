@@ -4,38 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/rock-paper-scissors-game.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
     <title>Rock Paper Scissors Game</title>
   </head>
   <body>
-    <h1>Rock Paper Scissors Game</h1>
+    <div class="main">
+      <h1>Rock Paper Scissors Game</h1>
 
-    <div class="score-container">
-      <div class="score-box player">
-        <div>You</div>
-        <div class="score" id="playerScore">0</div>
+      <div class="score-container">
+        <div class="score-box player">
+          <div>You</div>
+          <div class="score" id="playerScore">0</div>
+        </div>
+        <div class="score-box ties">
+          <div>Ties</div>
+          <div class="score" id="tieScore">0</div>
+        </div>
+        <div class="score-box computer">
+          <div>Computer</div>
+          <div class="score" id="computerScore">0</div>
+        </div>
       </div>
-      <div class="score-box ties">
-        <div>Ties</div>
-        <div class="score" id="tieScore">0</div>
+      <div class="button-container">
+        <button id="rock" class="choice">
+          <i class="fa-solid fa-hand-back-fist icon"></i>
+        </button>
+        <button id="paper" class="choice">
+          <i class="fa-solid fa-hand icon"></i>
+        </button>
+        <button id="scissors" class="choice">
+          <i class="fa-solid fa-hand-scissors icon"></i>
+        </button>
       </div>
-      <div class="score-box computer">
-        <div>Computer</div>
-        <div class="score" id="computerScore">0</div>
+      <div class="choice-container">
+        <p id="playerSelection">Player:</p>
+        <p id="computerSelection">Computer:</p>
       </div>
-    </div>
-    <div class="button-container">
-      <button id="rock" class="choice">Rock</button>
-      <button id="paper" class="choice">Paper</button>
-      <button id="scissors" class="choice">Scissors</button>
-    </div>
-    <div class="choice-container">
-      <p id="playerSelection">Player:</p>
-      <p id="computerSelection">Computer:</p>
-    </div>
 
-    <p id="message"></p>
+      <p id="message"></p>
 
-    <button class="restart-button" id="restartButton">Start New Game</button>
+      <button class="restart-button" id="restartButton">Start New Game</button>
+    </div>
 
     <script src="scripts/rock-paper-scissors-game.js"></script>
   </body>
