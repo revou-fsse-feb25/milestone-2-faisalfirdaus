@@ -84,3 +84,19 @@ h1 {
   cursor: pointer;
   margin-top: 20px;
 }
+
+.home-button {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 32px;
+  color: #afafaf;
+  cursor: pointer;
+}
+
+.home-button:hover {
+  color: #3b44f6;
+  transition: all 0.2s;
+}
