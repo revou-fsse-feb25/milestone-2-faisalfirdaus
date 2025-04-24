@@ -1,0 +1,38 @@
+/* --- Navbar --- */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.375rem 0;
+}
+
+.nav-items {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.logo {
+  width: 120px;
+}
+
+.nav-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.login-btn {
+  padding: 0.5rem 1.1rem;
+  border-radius: 0.5rem;
+  background-color: var(--primary-color);
+  color: var(--primary-light-text-color);
+}
+
+.signup-btn {
+  padding: 0.4rem 1.1rem;
+  border-radius: 0.5rem;
+  border: solid 2px var(--white-color);
+  background-color: transparent;
+  color: var(--primary-light-text-color);
+}

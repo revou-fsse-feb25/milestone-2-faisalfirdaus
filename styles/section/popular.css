@@ -1,0 +1,72 @@
+/* --- Populer Section --- */
+.popular-container {
+  padding: 30px 0 100px 0;
+}
+
+.popular-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(262px, 1fr));
+  column-gap: 1.5rem;
+  row-gap: 2rem;
+}
+
+.popular-card {
+  background-color: white;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  padding: 1rem 1rem 1.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.popular-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 1.5rem;
+}
+
+.game-img {
+  width: 100%;
+  height: 220px;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.price-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.game-name {
+  margin-bottom: 1rem;
+}
+
+.discount-txt {
+  display: flex;
+}
+
+.discount {
+  font-family: var(--primary-font);
+  font-weight: var(--fw-medium);
+  font-size: 0.75rem;
+  color: #fc326f;
+  padding: 3px;
+  border-radius: 4px;
+  background-color: #f6cede;
+}
+
+.discount-price {
+  color: #7d7d7d;
+  background-color: #f0f0f0;
+  text-decoration: line-through;
+  border-radius: 4px;
+  padding: 1.5px 9px 1.5px 9px;
+}
+
+.free-download {
+  padding: 4px 10px;
+  border-radius: 4px;
+  background-color: var(--blue-color-20);
+}

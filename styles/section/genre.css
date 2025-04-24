@@ -1,0 +1,110 @@
+/* --- Genre Section --- */
+.genre-container {
+  padding: 40px 0;
+}
+
+.genre-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 1.5rem;
+}
+
+.genre-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.genre-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.genre-card:hover {
+  scale: 1.05;
+}
+
+.genre-card p {
+  text-shadow: 3px 4px 3px rgba(0, 0, 0, 0.7);
+}
+
+.genre-1 {
+  background-image: linear-gradient(
+      to left top,
+      rgba(59, 68, 246, 1) 18%,
+      rgba(255, 255, 255, 0) 100%,
+      rgba(0, 0, 0, 0.711922268907563) 100%
+    ),
+    url(../../assets/images/strategy-genre.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.genre-2 {
+  background-image: linear-gradient(
+      to left top,
+      rgba(59, 68, 246, 1) 18%,
+      rgba(255, 255, 255, 0) 100%,
+      rgba(0, 0, 0, 0.711922268907563) 100%
+    ),
+    url(../../assets/images/freetoplay-genre.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.genre-3 {
+  background-image: linear-gradient(
+      to left top,
+      rgba(59, 68, 246, 1) 18%,
+      rgba(255, 255, 255, 0) 100%,
+      rgba(0, 0, 0, 0.711922268907563) 100%
+    ),
+    url(../../assets/images/rpg-genre.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.genre-4 {
+  background-image: linear-gradient(
+      to left top,
+      rgba(59, 68, 246, 1) 18%,
+      rgba(255, 255, 255, 0) 100%,
+      rgba(0, 0, 0, 0.711922268907563) 100%
+    ),
+    url(../../assets/images/puzzle-genre.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.genre-5 {
+  background-image: linear-gradient(
+      to left top,
+      rgba(59, 68, 246, 1) 18%,
+      rgba(255, 255, 255, 0) 100%,
+      rgba(0, 0, 0, 0.711922268907563) 100%
+    ),
+    url(../../assets/images/simulation-genre.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.genre-6 {
+  background-image: linear-gradient(
+      to left top,
+      rgba(59, 68, 246, 1) 18%,
+      rgba(255, 255, 255, 0) 100%,
+      rgba(0, 0, 0, 0.711922268907563) 100%
+    ),
+    url(../../assets/images/sports-genre.webp);
+  background-size: cover;
+  background-position: center;
+}

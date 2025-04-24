@@ -1,0 +1,55 @@
+:root {
+  /* Color */
+  --blue-color: #3b44f6;
+  --blue-color-50: #767cf9;
+  --blue-color-20: #d8dafd;
+
+  --skyblue-color: #00d7ff;
+  --skyblue-color-50: #66e7ff;
+  --skyblue-color-20: #ccf7ff;
+
+  --balck-color: #181818;
+  --black-color-50: #323232;
+  --black-color-20: #525252;
+
+  --white-color: #ffffff;
+  --white-color-50: #f5f4f9;
+  --white-color-40: #b2a7ad;
+  --white-color-20: #a0a0a0;
+
+  --primary-color: var(--blue-color);
+  --secondary-color: var(--blue-color-50);
+
+  --primary-dark-text-color: var(--black-color);
+  --secondary-dark-text-color: var(--black-color-50);
+
+  --primary-light-text-color: var(--white-color);
+  --secondary-light-text-color: var(--white-color-50);
+  --tertiary-light-text-color: var(--white-color-20);
+
+  /* Font Family */
+  --primary-font: "Lexend", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
+
+  --ff-body: var(--primary-font);
+  --ff-heading: var(--primary-font);
+  --ff-subheading: var(--primary-font);
+  --ff-caption: var(--secondary-font);
+
+  /* Font Weight */
+  --fw-bold: 700;
+  --fw-semi-bold: 600;
+  --fw-medium: 500;
+  --fw-regular: 400;
+
+  /* Font Size */
+  --fs-caption-2: 0.875rem;
+  --fs-subtitle-2: 0.9375rem;
+  --fs-caption-1: 1rem;
+  --fs-subtitle-1: 1.125rem;
+  --fs-heading-6: 1.25rem;
+  --fs-heading-5: 1.5rem;
+  --fs-heading-4: 1.75rem;
+  --fs-heading-3: 2.25rem;
+  --fs-heading-2: 3rem;
+}

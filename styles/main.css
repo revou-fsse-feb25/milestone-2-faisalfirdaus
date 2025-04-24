@@ -1,0 +1,12 @@
+@import "./variables.css";
+@import "./base.css";
+@import "./utilities.css";
+
+@import "./section/navbar.css";
+@import "./section/hero.css";
+@import "./section/feature.css";
+@import "./section/genre.css";
+@import "./section/popular.css";
+@import "./section/best-seller.css";
+@import "./section/coming-soon.css";
+@import "./section/footer.css";

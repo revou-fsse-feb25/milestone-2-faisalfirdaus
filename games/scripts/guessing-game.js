@@ -1,38 +1,3 @@
-// let attempt = 5;
-// const secretNumber = Math.floor(Math.random() * 100) + 1;
-// let isWinning = false;
-
-// // console.log(secretNumber);
-// while (attempt > 0) {
-//   const playerInput = prompt("Please enter a number between 1-100: ");
-
-//   if (isNaN(playerInput)) {
-//     console.log("Invalid input! Please enter a number");
-//   } else if (playerInput > 100 || playerInput < 0) {
-//     console.log(
-//       "The number you input is out of range. Please input a number between 1-100"
-//     );
-//   } else {
-//     if (playerInput > secretNumber) {
-//       console.log("Too high!");
-//     } else if (playerInput < secretNumber) {
-//       console.log("Too low!");
-//     } else {
-//       isWinning = true;
-//       break;
-//     }
-//     attempt--;
-//   }
-// }
-
-// console.log(`Secret numbber: ${secretNumber}`);
-// if (isWinning) {
-//   console.log("Congratulations, you guessed the number.");
-// } else {
-//   console.log("You lose!");
-// }
-// console.log("Game over!");
-
 const gameState = {
   secretNumber: null,
   attempt: 5,
@@ -76,7 +41,7 @@ function handleInput() {
   if (gameState.attempt > 0 && !gameState.gameOver) {
     const playerInputValue = parseInt(playerInput.value);
 
-    if (validateUserInput(playerInputValue)) return; // Validate input
+    if (isUserInputValidate(playerInputValue)) return; // Validate input
 
     // Increment guess count
     gameState.attempt--;
@@ -132,8 +97,13 @@ function generateSecretNumber() {
   return (gameState.secretNumber = Math.floor(Math.random() * 100) + 1);
 }
 
-function validateUserInput(playerInput) {
-  if (isNaN(playerInput) || playerInput > 100 || playerInput < 0) {
+function isUserInputValidate(playerInput) {
+  if (
+    isNaN(playerInput) ||
+    playerInput > 100 ||
+    playerInput < 0 ||
+    playerInput === ""
+  ) {
     message.textContent = "Please enter a valid number between 1-100";
     return true;
   }

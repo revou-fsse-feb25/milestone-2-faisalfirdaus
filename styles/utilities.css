@@ -1,0 +1,104 @@
+* --- Utility Class --- */ .text-heading-2 {
+  font-size: var(--fs-heading-2);
+  font-weight: var(--fw-semi-bold);
+  font-family: var(--ff-heading);
+}
+
+.text-heading-3 {
+  font-size: var(--fs-heading-3);
+  font-weight: var(--fw-semi-bold);
+  font-family: var(--ff-heading);
+}
+
+.text-heading-4 {
+  font-size: var(--fs-heading-4);
+  font-weight: var(--fw-medium);
+  font-family: var(--ff-heading);
+}
+
+.text-heading-5 {
+  font-size: var(--fs-heading-5);
+  font-weight: var(--fw-medium);
+  font-family: var(--ff-heading);
+}
+
+.text-heading-6 {
+  font-size: var(--fs-heading-6);
+  font-weight: var(--fw-medium);
+  font-family: var(--ff-heading);
+}
+
+.text-subtitle-1-medium {
+  font-size: var(--fs-subtitle-1);
+  font-weight: var(--fw-medium);
+  font-family: var(--ff-subheading);
+}
+
+.text-subtitle-1-regular {
+  font-size: var(--fs-subtitle-1);
+  font-weight: var(--fw-regular);
+  font-family: var(--ff-subheading);
+}
+
+.text-subtitle-2-medium {
+  font-size: var(--fs-subtitle-2);
+  font-weight: var(--fw-medium);
+  font-family: var(--ff-subheading);
+}
+
+.text-subtitle-2-regular {
+  font-size: var(--fs-subtitle-2);
+  font-weight: var(--fw-regular);
+  font-family: var(--ff-subheading);
+}
+
+.text-caption-1-medium {
+  font-size: var(--fs-caption-1);
+  font-weight: var(--fw-medium);
+  font-family: var(--ff-caption);
+}
+
+.text-caption-1-regular {
+  font-size: var(--fs-caption-1);
+  font-weight: var(--fw-regular);
+  font-family: var(--ff-caption);
+}
+
+.text-caption-2-medium {
+  font-size: var(--fs-caption-2);
+  font-weight: var(--fw-medium);
+  font-family: var(--ff-caption);
+}
+
+.text-caption-2-regular {
+  font-size: var(--fs-caption-2);
+  font-weight: var(--fw-regular);
+  font-family: var(--ff-caption);
+}
+
+.main-container {
+  max-width: min(90%, 1280px);
+  margin: 0 auto;
+}
+
+.txt-white {
+  color: var(--primary-light-text-color);
+}
+
+.txt-white-20 {
+  color: var(--white-color-20);
+}
+
+.txt-blue {
+  color: var(--blue-color);
+}
+
+@media screen and (max-width: 768px) {
+  .text-heading-4 {
+    font-size: var(--fs-heading-5);
+  }
+
+  .text-subtitle-2-medium {
+    font-size: 0.7rem;
+  }
+}
