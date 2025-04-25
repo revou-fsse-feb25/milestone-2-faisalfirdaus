@@ -44,7 +44,7 @@ RevoFun is a modern web-based video game marketplace specifically designed as an
     cd milestone-2-faisalfirdaus
 ```
 
-3. Open `index.html` in a browser to view the website.
+3. Open `index.html` in a browser of run it with live-server to view the website.
 
 ## Future Enhancements
 
